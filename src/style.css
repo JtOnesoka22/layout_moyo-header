@@ -12,13 +12,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  padding: 0 40px;
+  padding: 0 50px;
   background-color: #fff;
 }
 
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
-  margin: 10px;
   width: 40px;
   height: 40px;
   opacity: 1;
@@ -26,17 +29,17 @@ body {
 
 .nav {
   display: flex;
-  position: relative;
   align-items: center;
 }
 
 .nav__link {
+  display: flex;
+  align-items: center;
   font-size: 12px;
-  padding: 22.5px 0;
   text-decoration: none;
   margin-right: 20px;
   color: #000;
-  height: 15px;
+  height: 60px;
 }
 
 .nav__link:last-child {
@@ -47,16 +50,12 @@ body {
   color: #00acdc;
 }
 
-.nav__link:active {
-  color: #008ab4;
-}
-
-.nav__link.is-active {
+.is-active {
   color: #00acdc;
   position: relative;
 }
 
-.nav__link.is-active::after {
+.is-active::after {
   content: '';
   position: absolute;
   width: 100%;
