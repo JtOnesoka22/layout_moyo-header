@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-  --color-primary: #00acdc;;
+  --color-primary: #00acdc;
 }
 
 .header {
@@ -53,14 +53,9 @@ body {
   align-items: center;
   font-size: 12px;
   text-decoration: none;
-  margin-right: 20px;
   color: #000;
   height: 60px;
   text-transform: uppercase;
-}
-
-.nav__link:last-child {
-  margin-right: 0;
 }
 
 .nav__link:hover {
